@@ -9,7 +9,7 @@
 <body>
 <?php
 
-
+error_reporting(E_ALL ^ E_NOTICE);
 $n = $_REQUEST["id"];
 include 'conexion.php';
 //consulta

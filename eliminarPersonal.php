@@ -8,7 +8,7 @@ $id= $_REQUEST['id'];
 
 //consulta sql 
 $eliminar = "DELETE from personal where id = '$id' ";
-$resultado = $_conexion -> query($eliminar);
+$resultado = $conexion -> query($eliminar);
 
 
 //ejecutar consulta

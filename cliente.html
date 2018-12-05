@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CREDENCIAL</title>
+</head>
+<body>
+    
+    <nav></nav>
+    <section>
+        <article>
+            <form action="ingresarCliente.php" method="POST">
+                RUT <input type="text" name="rut"> <br>
+                NOMBRE <input type="text" name="nombre"> <br>
+                EDAD <input type="text" name="edad"> <br>
+                CORREO <input type="text" name="correo"> <br>
+
+                <input type="radio" name="genero" value="masculino"> Masculino <br>
+                <input type="radio" name="genero" value="femenino"> Femenino<br>
+            
+            <button type="submit" >INGRESAR CLIENTE</button> <br>
+            </form>
+            <form action="mostrarCliente.php" method="POST">
+            <button type="submit">Mostrar cliente</button>
+            </form>
+        </article>
+    </section>
+
+</body>
+</html>

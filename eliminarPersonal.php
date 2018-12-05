@@ -23,8 +23,8 @@ echo' <script>
 window.history.go(-1);
 alert("ELIMINADO");
 </script>';
-header("Location: mostrarAdmin.php");
+header("Location: mostrarPersonal.php");
 }
 //cerrar conexion
-mysqli_close($_conexion);
+mysqli_close($conexion);
 ?>

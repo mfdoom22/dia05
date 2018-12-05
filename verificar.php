@@ -20,13 +20,13 @@ session_start();
   
   <?php 
  //Conexion con la base de datos.
- $_conexion= new mysqli("localhost","root", "", "Multitienda");
+ $conexion= new mysqli("localhost","root", "", "biblioteca");
    
- if($_conexion->connect_errno){
-      echo "Fallo al conectar a MySQL:(". $_conexion->connect_errno.")";
+ if($conexion->connect_errno){
+      echo "Fallo al conectar a MySQL:(". $conexion->connect_errno.")";
  }
  else{
- $_conexion->select_db("Multitienda");
+ $conexion->select_db("biblioteca");
       
  //declaramos como variables a los campos de texto del formulario.
  $nombre=$_POST["email"];
@@ -35,7 +35,7 @@ session_start();
  //Consulta del usuario y el password
  $consulta="SELECT email,pass FROM loginem
  WHERE email='$nombre' and pass='$password'";
- if($query= $_conexion->query($consulta)){
+ if($query= $conexion->query($consulta)){
  $row=$query->fetch_array();
  $nr =$query->num_rows;
  //Si existe el usuario lo va a redireccionar a la pagina de Bienvenida.
@@ -51,7 +51,7 @@ echo' <script>
  }
  }
  else{
- echo $_conexion->error;
+ echo $conexion->error;
  }
 }
 ?>

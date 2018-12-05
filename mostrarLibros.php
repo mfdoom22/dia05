@@ -12,7 +12,7 @@
 </head>
 <body>
     <header> 
-        <h1> REGISTRO LIBROS </h1>
+        <center><h1> REGISTRO LIBROS </h1></center>
     </header>
     <nav></nav>
     <center> <a class="nav-link active" href="actualizarLibros.php">Actualizar</a> </center>
@@ -32,19 +32,18 @@
 <?php
 include 'conexion.php';
 //consulta
-$consulta = "SELECT * from Libro";
+$consulta = "SELECT * from libro";
 $mostrar = $conexion -> query($consulta);
 
 while($fila = $mostrar -> fetch_assoc()){
 //codigo para mostrar
 ?>
 <tr>
-    <td><?php echo $fila['rut'] ;?> </td>
-    <td><?php echo $fila['nombre'] ;?> </td>
-    <td><?php echo $fila['edad'] ;?> </td>
-    <td><?php echo $fila['correo'] ;?> </td>
-    <td><?php echo $fila['genero'] ;?> </td>
-    <td><a href="eliminarCliente.php?rut=<?php echo $fila['rut']; ?> ">Eliminar</a> </td>
+    <td><?php echo $fila['id_libro'] ;?> </td>
+    <td><?php echo $fila['nom_libro'] ;?> </td>
+    <td><?php echo $fila['autor'] ;?> </td>
+    <td><?php echo $fila['estado'] ;?> </td>
+    <td><a href="eliminarCliente.php?id_libro=<?php echo $fila['id_libro']; ?> ">Eliminar</a> </td>
     
 </tr>
 <?php
@@ -52,5 +51,8 @@ while($fila = $mostrar -> fetch_assoc()){
 ?>
 
 </tbody>
+<form action="libros.html" method="POST">
+<button type="submit"> Ingresar Datos </button>
+</form>
 </body>
 </html>

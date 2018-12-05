@@ -1,16 +1,17 @@
 <?php
 include 'conexion.php';
 //Variables
-$id_libro= $_POST["id_libro"];
+
+$id_libro = $_POST["id_libro"];
 $nom_libro = $_POST["nom_libro"];
 $autor = $_POST["autor"];
 $estado = $_POST["estado"];
 
 
 //consulta sql
-$insertar = "INSERT into libros(id_libro, nom_libro , autor, estado) values
+$insertar = "INSERT into libro(id_libro, nom_libro , autor, estado) values
 ('$id_libro', '$nom_libro','$autor', '$estado')";
-$verificar = mysqli_query($_conexion, "SELECT * from libro where id_libro = '$id_libro'");
+$verificar = mysqli_query($conexion, "SELECT * from libro where id_libro = '$id_libro'");
 
 if(mysqli_num_rows($verificar) > 0){
 echo' <script>
@@ -25,7 +26,7 @@ $resultado = mysqli_query($conexion, $insertar);
 if (!$resultado){
 echo' <script>
 alert("Error al registrar personal");
-
+window.history.go(-1);
 </script>';
 } else{
 echo' <script>

@@ -23,7 +23,7 @@ $fila = $mostrar -> fetch_assoc();
     <nav></nav>
     <section>
         <article>
-            <form action="ScriptActualizarCredencial.php" method="POST">
+            <form action="ScriptActualizarPersonal.php" method="POST">
                 ID PERSONAL <input type="text" name="id"> <br>
                 NOMBRE           <input type="text" name="nombre" value="<?php echo $fila['nombre']; ?>"/> <br>
                 EDAD        <input type="text" name="edad" value="<?php echo $fila['edad']; ?>"/> <br>
@@ -31,7 +31,7 @@ $fila = $mostrar -> fetch_assoc();
             
             <button type="submit" >Actualizar personal</button> <br>
             </form>
-            <form action="mostrarCredencial.php" method="POST">
+            <form action="mostrarPersonal.php" method="POST">
             <button type="submit">Mostrar Personal</button>
             </form>
         </article>

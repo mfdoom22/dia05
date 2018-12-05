@@ -3,17 +3,17 @@ include 'conexion.php';
 //Variables
 $id= $_POST["id"];
 $nombre = $_POST["nombre"];
-$telefono = $_POST["telefono"];
 $edad = $_POST["edad"];
-$direccion = $_POST["direccion"];
+$cargo = $_POST["cargo"];
+
 //consulta sql
 @mysqli_select_db($db, $conexion);
-$actualizar = "UPDATE personal SET  nombre='$nombre', telefono = '$telefono',
-edad = '$edad', direccion = '$direccion' WHERE id = '$id'";
+$actualizar = "UPDATE personal SET  nombre='$nombre', edad = '$edad',
+cargo = '$cargo' WHERE id = '$id'";
 
 
 //ejecutar consulta
-$resultado = mysqli_query($_conexion, $actualizar);
+$resultado = mysqli_query($conexion, $actualizar);
 if (!$resultado){
 echo' <script>
 alert("Error al actualizar");

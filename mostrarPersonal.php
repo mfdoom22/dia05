@@ -13,7 +13,7 @@
 </head>
 <header> <h2> <center> Registrar Personal</center> </h2></header>
 <body >
-<center> <a class="nav-link active" href="actualizarCredencial.php">Actualizar</a> </center>
+<center> <a class="nav-link active" href="actualizarPersonal.php">Actualizar</a> </center>
     <center>
     <table class="table table-striped">
   <thead>
@@ -55,7 +55,7 @@ while($fila = $mostrar -> fetch_assoc()){
     <div>
 		<form action="personal.html" method="post">
 
-        <button type="submit" name ="enviar">REGISTRAR NUEVA CREDENCIAL</button>
+        <button type="submit" name ="enviar">REGISTRAR NUEVO PERSONAL</button>
 		</form>
 </div>   
 

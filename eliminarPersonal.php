@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL ^ E_NOTICE);
 
-include 'conexionBD.php';
+include 'conexion.php';
 //Variables
 $id= $_REQUEST['id'];
 

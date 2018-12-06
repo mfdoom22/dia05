@@ -11,15 +11,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<<<<<<< HEAD
+
 <header> <h2> <center> Registros de credencial</center> </h2></header>
-<body >
-=======
+<body background ="images/lib.png" >
+
 <header> <h2> <center> Registros de la base de datos</center> </h2></header>
 <body background ="images/biblioteca.png" >
 <center> <a class="nav-link active" href="credencial.html">Atras</a> </center>
     <center>
->>>>>>> 431abe3b91e908561c2303814fbbdd6dabe89afc
+
 <center> <a class="nav-link active" href="actualizarCredencial.php">Actualizar</a> </center>
     <center>
     <table class="table table-striped">

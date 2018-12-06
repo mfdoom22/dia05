@@ -7,7 +7,7 @@
     <title>SOLICITUD</title>
     <link rel=" icon"  href="images/ico.ico">
 </head>
-<body>
+<body background ="images/lib.png">
 <?php
 
 error_reporting(E_ALL ^ E_NOTICE);

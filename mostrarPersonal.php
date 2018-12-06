@@ -12,7 +12,7 @@
     <title>PERSONAL</title>
 </head>
 <header> <h2> <center> Registrar Personal</center> </h2></header>
-<body background ="images/biblioteca.png ">
+<body background ="images/lib.png">
 
 
  

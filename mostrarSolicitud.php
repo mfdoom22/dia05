@@ -12,8 +12,10 @@
     <title>Clientes</title>
     <link rel=" icon"  href="images/ico.ico">
 </head>
+
 <header> <h2> <center> Registros solicitud</center> </h2></header>
-<body >
+<body background ="images/lib.png">
+
 <center> <a class="nav-link active" href="actualizarSolicitud.php">Actualizar</a> </center>
     <center>
     <table class="table table-striped">

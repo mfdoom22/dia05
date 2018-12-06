@@ -10,11 +10,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Libros</title>
 </head>
-<body>
+<body background ="images/course_1.jpg">
     <header> 
         <center><h1> REGISTRO LIBROS </h1></center>
     </header>
     <nav></nav>
+    <center> <a class="nav-link active" href="index.html">Menu </a>           
+            </center>
     <center> <a class="nav-link active" href="actualizarLibro.php">Actualizar</a> </center>
     <center>
     <table class="table table-striped">

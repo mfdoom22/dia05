@@ -7,7 +7,14 @@
     <title>SOLICITUD</title>
     <link rel=" icon"  href="images/ico.ico">
 </head>
+
 <body background ="images/lib.png">
+<center>
+                <a class="nav-link active" href="mostrarSolicitud.php">atras </a>          
+            </center>
+            <header>
+       <center> <h1>ACTUALIZAR DATOS DE SOLICITUD:</h1></center>
+    </header>
 <?php
 
 error_reporting(E_ALL ^ E_NOTICE);

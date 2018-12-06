@@ -15,7 +15,9 @@
 
 <header> <h2> <center> Registros solicitud</center> </h2></header>
 <body background ="images/lib.png">
-
+<center>
+                <a class="nav-link active" href="cliente.html">atras </a>          
+            </center>
 <center> <a class="nav-link active" href="actualizarSolicitud.php">Actualizar</a> </center>
     <center>
     <table class="table table-striped">

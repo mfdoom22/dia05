@@ -10,7 +10,9 @@
 </head>
 <body background ="images/lib.png" >
 <center> <a class="nav-link active" href="mostrarcredencial.php">Atras</a> </center>
-    
+<header>
+       <center> <h1>ACTUALIZAR DATOS DE CREDENCIAL:</h1></center>
+    </header>
 
 <?php
 error_reporting(E_ALL ^ E_NOTICE);

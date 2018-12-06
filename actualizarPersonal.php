@@ -10,6 +10,9 @@
 </head>
 <body  background ="images/lib.png ">
 <center> <a class="nav-link active" href="mostrarPersonal.html"> Atras</a></center>
+<header>
+       <center> <h1>ACTUALIZAR DATOS DE PERSONAL:</h1></center>
+    </header>
 <?php
 error_reporting(E_ALL ^ E_NOTICE);
 

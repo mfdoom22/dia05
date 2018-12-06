@@ -15,7 +15,7 @@
         <center><h1> REGISTRO LIBROS </h1></center>
     </header>
     <nav></nav>
-    <center> <a class="nav-link active" href="actualizarLibros.php">Actualizar</a> </center>
+    <center> <a class="nav-link active" href="actualizarLibro.php">Actualizar</a> </center>
     <center>
     <table class="table table-striped">
   <thead>
@@ -23,6 +23,7 @@
       <th scope="col">id</th>
       <th scope="col">nombre</th>
       <th scope="col">autor</th>
+      <th scope="col">editorial</th>
 	  <th scope="col">estado</th>
       <th scope="col">ELIMINAR</th>
     </tr>
@@ -42,8 +43,9 @@ while($fila = $mostrar -> fetch_assoc()){
     <td><?php echo $fila['id_libro'] ;?> </td>
     <td><?php echo $fila['nom_libro'] ;?> </td>
     <td><?php echo $fila['autor'] ;?> </td>
+    <td><?php echo $fila['editorial'] ;?> </td>
     <td><?php echo $fila['estado'] ;?> </td>
-    <td><a href="eliminarCliente.php?id_libro=<?php echo $fila['id_libro']; ?> ">Eliminar</a> </td>
+    <td><a href="eliminarLibros.php?id_libro=<?php echo $fila['id_libro']; ?> ">Eliminar</a> </td>
     
 </tr>
 <?php

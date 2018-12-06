@@ -33,7 +33,7 @@ session_start();
  $password=$_POST["pass"];
 
  //Consulta del usuario y el password
- $consulta="SELECT email,pass FROM loginad
+ $consulta="SELECT email,pass FROM loginp
  WHERE email='$nombre' and pass='$password'";
  if($query= $conexion->query($consulta)){
  $row=$query->fetch_array();

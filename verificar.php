@@ -33,14 +33,14 @@ session_start();
  $password=$_POST["pass"];
 
  //Consulta del usuario y el password
- $consulta="SELECT email,pass FROM loginem
+ $consulta="SELECT email,pass FROM loginc
  WHERE email='$nombre' and pass='$password'";
  if($query= $conexion->query($consulta)){
  $row=$query->fetch_array();
  $nr =$query->num_rows;
  //Si existe el usuario lo va a redireccionar a la pagina de Bienvenida.
  if($nr == 1){
-   header ("Location:indexempleado.html");
+   header ("Location:credencial.html");
  }
  //Si no existe lo va a enviar al login otra vez.
  else if($nr <= 0) {

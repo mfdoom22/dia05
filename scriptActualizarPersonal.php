@@ -17,7 +17,7 @@ $resultado = mysqli_query($conexion, $actualizar);
 if (!$resultado){
 echo' <script>
 alert("Error al actualizar");
-
+window.history.go(-1);
 </script>';
 } else{
 echo' <script>

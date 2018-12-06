@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<header> <h2> <center> Registros de la base de datos</center> </h2></header>
+<header> <h2> <center> Registros de credencial</center> </h2></header>
 <body >
 <center> <a class="nav-link active" href="actualizarCredencial.php">Actualizar</a> </center>
     <center>

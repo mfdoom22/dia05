@@ -7,7 +7,7 @@ $id_libro= $_REQUEST['id_libro'];
 
 //consulta sql 
 $eliminar = "DELETE from libro where id_libro = '$id_libro' ";
-$resultado = $_conexion -> query($eliminar);
+$resultado = $conexion -> query($eliminar);
 
 
 //ejecutar consulta

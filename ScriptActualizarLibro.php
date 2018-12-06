@@ -1,15 +1,15 @@
 <?php
 include 'conexion.php';
 //Variables
-$id_libro= $_POST["id_libro"];
-$nom_libro = $_POST["nom_libro"];
+$id= $_POST["id_libro"];
+$nombre = $_POST["nom_libro"];
 $autor = $_POST["autor"];
+$editorial = $_POST["editorial"];
 $estado = $_POST["estado"];
-
 //consulta sql
-@mysqli_select_db($db, $_conexion);
-$actualizar = "UPDATE libro SET id_libro = '$id_libro',
-nom_libro = '$nom_libro', autor = '$autor' , estado = '$estado' WHERE id_libro = '$id_libro'";
+@mysqli_select_db($db, $conexion);
+$actualizar = "UPDATE libro SET  nom_libro='$nombre', autor = '$autor',
+editorial = '$editorial', estado = '$estado' WHERE id_libro = '$id'";
 
 
 //ejecutar consulta
@@ -17,13 +17,13 @@ $resultado = mysqli_query($conexion, $actualizar);
 if (!$resultado){
 echo' <script>
 alert("Error al actualizar");
-
+window.history.go(-1);
 </script>';
 } else{
 echo' <script>
 alert("Registro actualizado correctamente");
 </script>';
-header("Location: mostrarLibro.php");
+header("Location: mostrarLibros.php");
 }
 //cerrar conexion
 mysqli_close($conexion);

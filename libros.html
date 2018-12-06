@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>LIBROS</title>
 </head>
 <body>
     <header>
@@ -14,14 +14,18 @@
     <section>
         <article>
             <center>
+                <form action="ingresarLibros.php" method="POST">
                 <input type="text" name="id_libro" placeholder="ingrese id de libro"> <br>
                 <input type="text" name="nom_libro" placeholder="ingrese nombre de libro"> <br>
                 <input type="text" name="autor" placeholder="ingrese autor de libro"> <br>
-                <input type="text" name="estado" placeholder="ingrese estado de libro"> <br>
+                <input type="text" name="editorial" placeholder="ingrese editorial de libro"> <br>
+
+                <input type="radio" name="estado" value="arrendado"> ARRENDADO <br>
+                <input type="radio" name="estado" value="disponible"> DISPONIBLE <br>
             </center>
 
             <center>
-                <form action="ingresarLibros.php" method="POST">
+                
                     <button type="submit">INGRESAR DATOS</button>
                 </form>
             </center>

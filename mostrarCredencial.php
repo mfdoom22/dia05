@@ -12,7 +12,9 @@
     <title>Document</title>
 </head>
 <header> <h2> <center> Registros de la base de datos</center> </h2></header>
-<body >
+<body background ="images/biblioteca.png" >
+<center> <a class="nav-link active" href="credencial.html">Atras</a> </center>
+    <center>
 <center> <a class="nav-link active" href="actualizarCredencial.php">Actualizar</a> </center>
     <center>
     <table class="table table-striped">
@@ -26,6 +28,7 @@
     </tr>
   </thead>
   <tbody>
+</center>
 
     <?php
 include 'conexion.php';

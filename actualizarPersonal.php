@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CREDENCIAL</title>
+    <title>Personal</title>
     <link rel=" icon"  href="images/ico.ico">
 </head>
 <body  background ="images/lib.png ">
@@ -29,6 +29,7 @@ $fila = $mostrar -> fetch_assoc();
     <nav></nav>
     <section>
         <article>
+        <center>
             <form action="ScriptActualizarPersonal.php" method="POST">
                 ID PERSONAL <input type="text" name="id"> <br>
                 NOMBRE           <input type="text" name="nombre" value="<?php echo $fila['nombre']; ?>"/> <br>
@@ -39,7 +40,7 @@ $fila = $mostrar -> fetch_assoc();
             </form>
             <form action="mostrarPersonal.php" method="POST">
             <button type="submit">Mostrar Personal</button>
-            </form>
+            </form></center>
         </article>
     </section>
 

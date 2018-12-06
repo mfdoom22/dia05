@@ -5,6 +5,7 @@ session_start();
 <!doctype html>
 <html lang="en">
   <head>
+  <link rel=" icon"  href="images/ico.ico">
     <title>Verificar</title>
 	
     <!-- Required meta tags -->

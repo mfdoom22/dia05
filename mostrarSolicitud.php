@@ -12,7 +12,7 @@
     <title>Clientes</title>
     <link rel=" icon"  href="images/ico.ico">
 </head>
-<header> <h2> <center> Registros Clientes</center> </h2></header>
+<header> <h2> <center> Registros solicitud</center> </h2></header>
 <body >
 <center> <a class="nav-link active" href="actualizarSolicitud.php">Actualizar</a> </center>
     <center>
@@ -22,7 +22,7 @@
       <th scope="col">id_libro</th>
       <th scope="col">nombre_libro</th>
       <th scope="col">rut</th>
-	  <th scope="col">fecha solicuts</th>
+	  <th scope="col">fecha solicitud</th>
       <th scope="col">ELIMINAR</th>
     </tr>
   </thead>

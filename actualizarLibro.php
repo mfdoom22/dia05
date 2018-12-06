@@ -29,10 +29,10 @@ $fila = $mostrar -> fetch_assoc();
     <section>
         <article>
             <form action="ScriptActualizarLibro.php" method="POST">
-                rut <input type="text" name="id_libro"> <br>
+                id libro <input type="text" name="id_libro"> <br>
                 nombre           <input type="text" name="nom_libro" value="<?php echo $fila['nom_libro']; ?>"/> <br>
-                edad        <input type="text" name="autor" value="<?php echo $fila['autor']; ?>"/> <br>
-                correo    <input type="text" name="editorial" value="<?php echo $fila['editorial']; ?>"/> <br>
+                autor        <input type="text" name="autor" value="<?php echo $fila['autor']; ?>"/> <br>
+                editorial    <input type="text" name="editorial" value="<?php echo $fila['editorial']; ?>"/> <br>
 
                 <input type="radio" name="estado" value="arrendado"/> Arrendado <br>
                 <input type="radio" name="estado" value="disponible"/> Disponible<br>

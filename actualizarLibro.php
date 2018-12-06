@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CLIENTE</title>
+    <title>Solicitud</title>
 </head>
 <body  background="images/lib.png">
 
             <center>
                 <a class="nav-link active" href="mostrarLibros.php">atras </a>          
             </center>
+            <header>
+       <center> <h1>ACTUALIZAR DATOS DE LIBRO:</h1></center>
+    </header>
 <?php
 
 error_reporting(E_ALL ^ E_NOTICE);
@@ -29,10 +32,10 @@ $fila = $mostrar -> fetch_assoc();
     <section>
         <article>
             <form action="ScriptActualizarLibro.php" method="POST">
-                rut <input type="text" name="id_libro"> <br>
+                id libro <input type="text" name="id_libro"> <br>
                 nombre           <input type="text" name="nom_libro" value="<?php echo $fila['nom_libro']; ?>"/> <br>
-                edad        <input type="text" name="autor" value="<?php echo $fila['autor']; ?>"/> <br>
-                correo    <input type="text" name="editorial" value="<?php echo $fila['editorial']; ?>"/> <br>
+                autor        <input type="text" name="autor" value="<?php echo $fila['autor']; ?>"/> <br>
+                editorial    <input type="text" name="editorial" value="<?php echo $fila['editorial']; ?>"/> <br>
 
                 <input type="radio" name="estado" value="arrendado"/> Arrendado <br>
                 <input type="radio" name="estado" value="disponible"/> Disponible<br>

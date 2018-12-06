@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CLIENTE</title>
+    <title>SOLICITUD</title>
     <link rel=" icon"  href="images/ico.ico">
 </head>
+
 <body background ="images/lib.png">
+<center>
+                <a class="nav-link active" href="mostrarSolicitud.php">atras </a>          
+            </center>
+            <header>
+       <center> <h1>ACTUALIZAR DATOS DE SOLICITUD:</h1></center>
+    </header>
 <?php
 
 error_reporting(E_ALL ^ E_NOTICE);
@@ -25,10 +32,10 @@ $fila = $mostrar -> fetch_assoc();
     <section>
         <article>
             <form action="ScriptActualizarSolicitud.php" method="POST">
-                rut         <input type="text" name="id_solicitud"> <br>
-                nombre      <input type="text" name="id_libro" value="<?php echo $fila['id_libro']; ?>"/> <br>
-                edad        <input type="text" name="rut" value="<?php echo $fila['rut']; ?>"/> <br>
-                correo      <input type="text" name="fec_soli" value="<?php echo $fila['fec_soli']; ?>"/> <br>
+                id solicitud         <input type="text" name="id_solicitud"> <br>
+                id libro      <input type="text" name="id_libro" value="<?php echo $fila['id_libro']; ?>"/> <br>
+                rut        <input type="text" name="rut" value="<?php echo $fila['rut']; ?>"/> <br>
+                fecha solicitud      <input type="text" name="fec_soli" value="<?php echo $fila['fec_soli']; ?>"/> <br>
 
                 
             

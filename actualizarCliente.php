@@ -13,6 +13,9 @@
             <center>
                 <a class="nav-link active" href="mostrarCliente.php">atras </a>          
             </center>
+            <header>
+       <center> <h1>ACTUALIZAR DATOS DE CLIENTE:</h1></center>
+    </header>
 <?php
 
 error_reporting(E_ALL ^ E_NOTICE);

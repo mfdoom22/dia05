@@ -31,7 +31,7 @@ $fila = $mostrar -> fetch_assoc();
     
     <nav></nav>
     <section>
-        <article>
+        <article><center>
             <form action="ScriptActualizarLibro.php" method="POST">
                 id libro <input type="text" name="id_libro"> <br>
                 nombre           <input type="text" name="nom_libro" value="<?php echo $fila['nom_libro']; ?>"/> <br>
@@ -45,7 +45,7 @@ $fila = $mostrar -> fetch_assoc();
             </form>
             <form action="mostrarLibros.php" method="POST">
             <button type="submit">Mostrar Libro</button>
-            </form>
+            </form></center>
         </article>
     </section>
 

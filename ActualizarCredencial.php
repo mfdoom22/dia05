@@ -30,6 +30,7 @@ $fila = $mostrar -> fetch_assoc();
     <nav></nav>
     <section>
         <article>
+        <center>
             <form action="ScriptActualizarCredencial.php" method="POST">
                 id_credencial <input type="text" name="id_credencial"> <br>
                 RUT           <input type="text" name="rut" value="<?php echo $fila['rut']; ?>"/> <br>
@@ -40,7 +41,7 @@ $fila = $mostrar -> fetch_assoc();
             </form>
             <form action="mostrarCredencial.php" method="POST">
             <button type="submit">Mostrar credenciales</button>
-            </form>
+            </form></center>
         </article>
     </section>
 

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CLIENTE</title>
 </head>
-<body  background="images/biblioteca.png">
+<body  background="images/lib.png">
 
             <center>
                 <a class="nav-link active" href="mostrarLibros.php">atras </a>          

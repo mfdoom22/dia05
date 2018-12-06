@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Libros</title>
 </head>
-<body background ="images/fondo.png">
+<body background ="images/lib.png">
     <header> 
         <center><h1> REGISTRO LIBROS </h1></center>
     </header>

@@ -8,7 +8,7 @@
     <link rel=" icon"  href="images/ico.ico">
     <title>CLIENTE</title>
 </head>
-<body  background="images/biblioteca.png">
+<body  background="images/lib.png">
 
             <center>
                 <a class="nav-link active" href="mostrarCliente.php">atras </a>          

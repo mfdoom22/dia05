@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Clientes</title>
 </head>
-<header> <h2> <center> Registros Clientes y credencial</center> </h2></header>
+<header> <h2> <center> Registros Libro, cliente y solicitud</center> </h2></header>
 <body background ="https://2.bp.blogspot.com/-nJ12IC51iYA/Wm-DNYNd0mI/AAAAAAAA2xs/OXbDcqJk6EYXm6YTWi3t_g0j6FHUZNPfwCLcBGAs/s1600/C%25C3%25B3mo%2Barmamos%2Bel%2Bfondo%2Bbibliogr%25C3%25A1fico%2Bde%2Buna%2Bbiblioteca.jpg" >
             <center>
                 <a class="nav-link active" href="index.html">atras </a>          

@@ -30,7 +30,7 @@ $fila = $mostrar -> fetch_assoc();
     
     <nav></nav>
     <section>
-        <article>
+        <article><center>
             <form action="ScriptActualizarSolicitud.php" method="POST">
                 id solicitud         <input type="text" name="id_solicitud"> <br>
                 id libro      <input type="text" name="id_libro" value="<?php echo $fila['id_libro']; ?>"/> <br>
@@ -43,7 +43,7 @@ $fila = $mostrar -> fetch_assoc();
             </form>
             <form action="mostrarSolicitud.php" method="POST">
             <button type="submit">Mostrar Solicitud</button>
-            </form>
+            </form></center>
         </article>
     </section>
 

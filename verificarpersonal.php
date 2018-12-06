@@ -40,7 +40,7 @@ session_start();
  $nr =$query->num_rows;
  //Si existe el usuario lo va a redireccionar a la pagina de Bienvenida.
  if($nr == 1){
-   header ("Location:indexadministrador.html");
+   header ("Location:personal.html");
  }
  //Si no existe lo va a enviar al login otra vez.
  else if($nr <= 0) {

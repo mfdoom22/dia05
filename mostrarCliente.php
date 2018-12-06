@@ -12,7 +12,11 @@
     <title>Clientes</title>
 </head>
 <header> <h2> <center> Registros Clientes</center> </h2></header>
-<body >
+<body  background="images/biblioteca.png" >
+            <center>
+                <a class="nav-link active" href="cliente.html">atras </a>          
+            </center>
+
 <center> <a class="nav-link active" href="actualizarCliente.php">Actualizar</a> </center>
     <center>
     <table class="table table-striped">

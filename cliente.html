@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CREDENCIAL</title>
 </head>
-<body>
+
+<body  background ="images/libro.png">
+
+        
+           <center>
+                <a class="nav-link active" href="index.html">Menu </a>           
+            </center>
     
     <nav></nav>
     <section>
         <article>
-            <form action="ingresarCliente.php" method="POST">
+           <center><form action="ingresarCliente.php" method="POST">
                 RUT <input type="text" name="rut"> <br>
                 NOMBRE <input type="text" name="nombre"> <br>
                 EDAD <input type="text" name="edad"> <br>
@@ -24,7 +31,7 @@
             </form>
             <form action="mostrarCliente.php" method="POST">
             <button type="submit">Mostrar cliente</button>
-            </form>
+            </form></center> 
         </article>
     </section>
 

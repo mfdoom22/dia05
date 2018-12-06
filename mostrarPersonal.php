@@ -12,8 +12,14 @@
     <title>PERSONAL</title>
 </head>
 <header> <h2> <center> Registrar Personal</center> </h2></header>
-<body >
+<body background ="images/biblioteca.png ">
+
+
+ 
+ <center> <a class="nav-link active" href="personal.html"> Atras</a></center>        
 <center> <a class="nav-link active" href="actualizarPersonal.php">Actualizar</a> </center>
+
+    
     <center>
     <table class="table table-striped">
   <thead>

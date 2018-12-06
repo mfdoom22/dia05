@@ -12,7 +12,7 @@
     <title>Clientes</title>
 </head>
 <header> <h2> <center> Registros Clientes</center> </h2></header>
-<body  background="images/biblioteca.png" >
+<body background ="images/fon.png" >
             <center>
                 <a class="nav-link active" href="cliente.html">atras </a>          
             </center>
